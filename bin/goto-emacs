@@ -1,0 +1,3 @@
+#! /bin/bash
+
+echo emacsclient --eval "goto-auto-and-highlight '$1' '$2'"
